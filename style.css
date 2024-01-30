@@ -1,0 +1,217 @@
+
+html{
+   background-color: #072040;
+}
+html, body {
+   height:100%;
+   font-family: Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+   margin: 0;
+   overflow: hidden;
+}
+Body{
+   background-color: #ffffff;
+}
+nav{
+   background-color: #072040 ;
+   color: #ffffff;
+   display: flex;
+   align-items: center;
+   position: sticky;
+   font-family: Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.Vis{
+   display: inline-flex;
+   flex-direction: row;
+   align-items: center;
+   overflow: hidden;
+   margin: 0;
+   padding: 0;
+   width: max-content;
+   height: auto;
+}
+
+.text{
+   display: flex;
+   justify-content: left;
+   margin-left: 0.625em;
+   padding-left: 0.625em;
+}
+
+.navbar a{
+   text-decoration: 0;
+   color: #ffffff;
+}
+
+.navbar .logo {
+   display: block;
+   color: #ffffff;
+   padding: 0 1.5em;
+   font-size: 1.5em;
+ }
+
+.navbar ul{
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+   display: flex;
+   align-items: center;
+
+}
+
+.navbar ul li a {
+display: flex ;
+padding: 1.5em;
+}
+
+.navbar #active {
+   background-color: #ffffff;
+   color: #111;
+}
+
+.navbar li a:focus,
+.navbar a:hover {
+   animation-name: fade;
+   animation-duration: 0.5s;
+   background-color: #ffffff;
+   color: #111;
+}
+
+@keyframes fade {
+   from {
+       background-color: #072040;
+       color: #fff;
+   }
+
+   to {
+       background-color: #ffffff;
+       color: #111;
+   }
+}
+
+body {
+   background-color: #f0f0f0;
+   overflow-y: auto;
+}
+
+.card {
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   padding: 0.625em;
+   margin: 3.75em;
+   background-color: #fff;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   display: flex;
+   align-items: center;
+ }
+ 
+ .card-image {
+   display: inline-block;
+   width: 25em; 
+   padding: 0.625em;
+ }
+ 
+ .card-image img {
+   max-width: 100%;
+   height: auto;
+ }
+ 
+ .card a h2 p {
+   display: inline-block;
+   padding: 0.625em;
+ }
+ 
+ .card h2 {
+   font-size: 1.375em;
+   margin: 0;
+ }
+ 
+ .card p {
+   font-size: 1.125em;
+   margin-top: 0.625em;
+ }
+ 
+ .card a {
+   text-decoration: none;
+   color: #007bff;
+   font-weight: bold;
+   display: block;
+   margin-top: 0.625em;
+ }
+ 
+.card #active {
+   background-color: #D7263D;
+   color: #fff;
+}
+
+.card:focus,
+.card:hover {
+   animation-name: fade1;
+   animation-duration: 0.5s;
+   background-color: #c7daf4;
+   color: #111;
+}
+
+@keyframes fade1 {
+   from {
+       background-color: #ffffff;
+   }
+
+   to {
+       background-color: #c7daf4;
+   }
+
+   from {
+       color: #fff;
+   }
+
+   to {
+       color: #111;
+   }
+}
+.errortext{
+   text-align: center;
+}
+
+.error{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+   margin: 0;
+   padding: 0;
+}
+.mainB{
+   display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column;
+}
+.cardB {
+   margin: 0;
+   padding: 1.25em;
+   overflow: hidden;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   flex-direction: column;
+   justify-content:center ;
+   height: 100%;
+   width: 37.5em;
+   background-color: #ffffff;
+   box-shadow: 0 0 0.625em #787575;
+ 
+ }
+ 
+ .card-imageB {
+   display: inline-block;
+   width: fit-content; 
+   padding: 0.625em;
+   max-width: 100% ;
+ }
+ 
+ .card-imageB img {
+   max-width: 100%;
+   height: auto;
+ }
+ 
+ 
